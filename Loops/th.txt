@@ -1,0 +1,14 @@
+types of loops in js 
+
+    -> there is total 5 types of loops in js \
+        -> for loop
+
+            for(initialization; condition; increment/decrement)
+            {
+                // code
+            }
+
+        -> while loop
+        -> do while loop
+        -> for..of loop
+        -> for..in loop

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Calculate the Persentage</h1>
+
+</body>
+
+<script>
+
+    let phy = Number(prompt("Enter the marks of Physics: "));
+    let chem = Number(prompt("Enter the marks of Chemistry: "));
+    let math = Number(prompt("Enter the marks of Mathematics: "));
+    let bio = Number(prompt("Enter the marks of Biology: "));
+    let comp = Number(prompt("Enter the marks of English: "));
+    let marks = 0;
+    let Persentage = 0;
+
+    marks = phy + chem + math + bio + comp;
+
+    Persentage = (marks / 500) * 100;
+
+    console.log("The Total Marks is: " + marks);
+    console.log("The Persentage is: " + Persentage + "%");
+
+</script>
+
+</html>
