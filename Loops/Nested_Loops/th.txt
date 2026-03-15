@@ -1,0 +1,23 @@
+repated -> single loops 
+
+    -> reated a task inside repated  --> Nesed loop
+
+
+        syntax :
+
+                for(outer_loop){
+
+                    for(inside_loop){
+
+                    }
+                }
+
+
+1d array -> {1,2,3,45}
+
+2d array  : 3 * 3 
+    a = [
+        [1,2,3],
+        [4,5,6],
+        [7,8,9]
+    ]
