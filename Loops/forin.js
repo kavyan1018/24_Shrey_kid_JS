@@ -23,3 +23,24 @@ for(let i in obj){
 }
 
 console.log("Total properties:", count);
+
+
+
+// ============== Task 3 =================
+
+let Number = {
+    a: 10,
+    b: 20,
+    c: 30
+};
+
+
+let max = -Infinity;
+
+for(let i in Number){
+    if(Number[i] > max){
+        max = Number[i];
+    }
+}
+
+console.log("Maximum value:", max);
