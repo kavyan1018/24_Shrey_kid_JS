@@ -1,0 +1,13 @@
+1. Print all values from array [5,10,15,20] using for...of
+2. Print each character of string 'JavaScript'
+3. Count total elements in array [1,2,3,4,5]
+4. Find sum of array [2,4,6,8]
+5. Print even numbers from [1,2,3,4,5,6,7,8]
+6. Find largest number in [10,25,5,40,15]
+7. Count vowels in 'education'
+8. Reverse string 'hello' without built-in functions
+9. Remove duplicates from [1,2,2,3,4,4,5]
+10. Multiply all values in [1,2,3,4]
+11. Find second largest in [10,20,5,8,25]
+12. Convert 'hello world' to uppercase
+13. Calculate total bill from prices [100,200,50,300]
