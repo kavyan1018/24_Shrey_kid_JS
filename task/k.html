@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atm</title>
+
+<style>
+body {
+
+    background:linear-gradient(black, #ffb300e2 , red , black);
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    height: 100vh;
+    margin-top: 80px;
+}
+
+.box {
+    background: #000000;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    height: 13%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-color: #0054b5;
+    border-width: 3px;
+    background: #0054b5;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: #000d54;
+}
+
+#out {
+    margin-top: 10px;
+    min-height: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+    <h3>ATM</h3>
+
+    <button onclick="run(1)">Check Balance</button>
+    <button onclick="run(2)">Deposit</button>
+    <button onclick="run(3)">Withdraw</button>
+    <button onclick="run(4)">Exit</button>
+
+    <div id="out"></div>
+</div>
+
+<script>
+let balance = 10000;
+let running = true;
+
+function run(option) {
+
+    if (!running) return;
+
+    if(option==1) {
+        document.getElementById("out").innerText = "your balance = $" + balance;
+    }
+
+    if(option==2) {
+        let add = Number(prompt("enter amount you want to deposit"))
+
+        if(add >= 0) {
+            balance = balance + add;
+            document.getElementById("out").innerText =
+            "your current balance after adding = " + balance;
+        }
+        else {
+            document.getElementById("out").innerText = "enter value in positive";
+        }
+    }
+
+    if(option==3) {
+        let sub = Number(prompt("enter amount you want to withdraw"))
+
+        balance = balance - sub;
+
+        if(balance >= 0) {
+            document.getElementById("out").innerText =
+            "your current amount of balance = $" + balance;
+        }
+        else {
+            balance = balance + sub; // undo
+            document.getElementById("out").innerText =
+            "you have entered amount more than bank";
+        }
+    }
+
+    if(option==4) {
+        running = false;
+        document.getElementById("out").innerText =
+        "thank you for visiting Shrey bank pls come again";
+    }
+}
+</script>
+
+</body>
+</html>
