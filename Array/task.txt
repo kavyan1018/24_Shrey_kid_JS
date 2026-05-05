@@ -1,0 +1,46 @@
+JavaScript Array Practice Tasks
+
+— BASIC TASKS —
+
+1.  Create an array of 5 numbers.
+    -   Change first and last element.
+    -   Print updated array.
+2.  Given array [10, 20, 30]
+    -   Add 2 elements at end.
+    -   Remove 1 element from start.
+    -   Print final array.
+3.  Create array
+    -   Use pop()
+    -   Store removed value
+    -   Print array and removed value
+
+— MEDIUM TASKS —
+
+4.  Find sum of array elements.
+
+5.  Count even and odd numbers.
+
+6.  Reverse array without using reverse().
+
+7.  Find largest number without Math.max().
+
+— HARD TASKS —
+
+8.  Remove duplicate elements.
+
+9.  Move all zeroes to end.
+
+10. Find second largest element.
+
+11. Insert element at specific index.
+
+12. Rotate array right by 1.
+
+— BONUS TASK —
+
+13. Menu driven program using switch:
+
+-   Add element
+-   Remove element
+-   Display array
+-   Exit
