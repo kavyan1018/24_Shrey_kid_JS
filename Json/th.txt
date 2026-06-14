@@ -1,0 +1,11 @@
+Json -> JavaScript Object Notation
+        |
+       is a text format used to store and exchange data between a server and a web application...
+
+
+
+const user = {
+    "name" : "Jone",
+    "age" : 30,
+    "city" : "New York"
+}
